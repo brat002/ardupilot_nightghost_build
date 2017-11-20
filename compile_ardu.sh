@@ -1,0 +1,1 @@
+docker run -it --rm -v `pwd`/ardupilot:/ardupilot -v `pwd`/compile.sh:/ardupilot/compile.sh ardu bash compile.sh
